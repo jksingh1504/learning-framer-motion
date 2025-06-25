@@ -99,7 +99,7 @@ const cornerCircleVarients = {
     opacity: 0.8,
     y: 0,
     backgroundColor: "rgb(246, 63, 42)",
-    transition: { duration: 0.3, delay: 0.45 },
+    transition: { duration: 0.45, delay: 0.45,ease:'easeOut'  },
   },
 
   exit: {
