@@ -1,6 +1,6 @@
 "use client";
 
-import { AnimatePresence, delay, motion } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
 import { useState } from "react";
 
 export default function MobileAnimation() {
@@ -99,7 +99,7 @@ const cornerCircleVarients = {
     opacity: 0.8,
     y: 0,
     backgroundColor: "rgb(246, 63, 42)",
-    transition: { duration: 0.3, delay: 0.5 },
+    transition: { duration: 0.3, delay: 0.45 },
   },
 
   exit: {
