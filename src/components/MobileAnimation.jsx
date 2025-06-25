@@ -29,7 +29,7 @@ export default function MobileAnimation() {
               ></motion.div>
               <motion.div
                 variants={mainModalVarient}
-                className="absolute bottom-0 left-[10vw] w-[10vw] h-[10vw] rounded-full blur-[20px] backdrop-blur-sm"
+                className="absolute bottom-8 left-[8vw] w-[5vw] h-[5vw] rounded-full blur-[5px] backdrop-blur-sm"
                 initial="initial"
                 animate="animate"
                 exit="initial"
@@ -71,7 +71,7 @@ const contentVarient = {
     scaleX: 0,
     y: "100%",
     transition: {
-      duration: 0.5,
+      duration: 0.4,
     },
   },
 
@@ -117,6 +117,7 @@ const mainModalVarient = {
     opacity: 0.3,
     y: "100%",
     backgroundColor: "rgb(233, 167, 160)",
+    transition:{duration:0.35}
   },
   animate: {
     scale: 20,
