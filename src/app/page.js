@@ -1,6 +1,7 @@
-import GlowingText from "@/components/GlowingText";
-import MobileAnimation from "@/components/MobileAnimation";
-import Notification from "@/components/Notification";
+// import GlowingText from "@/components/GlowingText";
+// import MobileAnimation from "@/components/MobileAnimation";
+// import Notification from "@/components/Notification";
+import QRCodeGenerator from "@/components/QrCodeGenerator";
 
 export default function Home() {
 
@@ -10,7 +11,8 @@ export default function Home() {
         <div className="flex justify-center items-center h-screen bg-black">
           {/* <Notification/> */}
           {/* <GlowingText/> */}
-          <MobileAnimation/>
+          {/* <MobileAnimation/> */}
+          <QRCodeGenerator text='hello world'/>
         </div>
       </main>
     </div>
